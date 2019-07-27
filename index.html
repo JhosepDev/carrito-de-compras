@@ -36,7 +36,7 @@
                                  <th>Imagen</th>
                                  <th>Nombre</th>
                                  <th>Precio</th>
-                                 <th></th>
+                                 <th> </th>
                               </tr>
                            </thead>
                            <tbody>
@@ -65,68 +65,79 @@
    </div>
 
 
-   <div class="container">
+   <div id="lista-productos" class="container">
+      <h1 id="encabezado" class="encabezado">Cursos En Línea</h1>
+
       <div class="row">
-         <div class="col content-productos">
 
+
+         <div class="col-4">
             <div class="card">
                <img src="img/curso1.jpg" class="imagen-curso u-full-width">
-               <div class="info-card p-3">
+               <div class="info-card p-4">
                   <h4>HTML5, CSS3, JavaScript para Principiantes</h4>
                   <p>Juan Pedro</p>
-                  <div>
+                  <div class="estrellas">
                      <i class="fas fa-star"></i>
                      <i class="fas fa-star"></i>
                      <i class="fas fa-star"></i>
                      <i class="fas fa-star"></i>
                      <i class="far fa-star"></i>
                   </div>
-                  <p class="precio">$200 <span class="">$15</span></p>
-                  <a href="#" class="btn btn-primary input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+                  <p class="precio"><span class="precio-original">Antes: $200</span> <span
+                        class="precio-oferta">$20</span></p>
+                  <a href="#" class="btn btn-primary d-flex justify-content-center input agregar-carrito"
+                     data-id="1">Agregar Al Carrito</a>
                </div>
             </div>
-
-            <div class="card">
-               <img src="img/curso1.jpg" class="imagen-curso u-full-width">
-               <div class="info-card p-3">
-                  <h4>HTML5, CSS3, JavaScript para Principiantes</h4>
-                  <p>Juan Pedro</p>
-                  <div>
-                     <i class="fas fa-star"></i>
-                     <i class="fas fa-star"></i>
-                     <i class="fas fa-star"></i>
-                     <i class="fas fa-star"></i>
-                     <i class="far fa-star"></i>
-                  </div>
-                  <p class="precio">$200 <span class="">$15</span></p>
-                  <a href="#" class="btn btn-primary input agregar-carrito" data-id="2">Agregar Al Carrito</a>
-               </div>
-            </div>
-
-            <div class="card">
-               <img src="img/curso1.jpg" class="imagen-curso u-full-width">
-               <div class="info-card p-3">
-                  <h4>HTML5, CSS3, JavaScript para Principiantes</h4>
-                  <p>Juan Pedro</p>
-                  <div>
-                     <i class="fas fa-star"></i>
-                     <i class="fas fa-star"></i>
-                     <i class="fas fa-star"></i>
-                     <i class="fas fa-star"></i>
-                     <i class="far fa-star"></i>
-                  </div>
-                  <p class="precio">$200 <span class="">$15</span></p>
-                  <a href="#" class="btn btn-primary input agregar-carrito" data-id="3">Agregar Al Carrito</a>
-               </div>
-            </div>
-
-
-
-
          </div>
+
+         <div class="col-4">
+            <div class="card">
+               <img src="img/curso2.jpg" class="imagen-curso u-full-width">
+               <div class="info-card p-4">
+                  <h4>Curso de Comida Vegetariana</h4>
+                  <p>Juan Pedro</p>
+                  <div class="estrellas">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="far fa-star"></i>
+                  </div>
+                  <p class="precio"><span class="precio-original">Antes: $200</span> <span
+                        class="precio-oferta">$20</span></p>
+                  <a href="#" class="btn btn-primary d-flex justify-content-center input agregar-carrito"
+                     data-id="2">Agregar Al Carrito</a>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-4">
+            <div class="card">
+               <img src="img/curso3.jpg" class="imagen-curso u-full-width">
+               <div class="info-card p-4">
+                  <h4>Guitarra para Principiantes</h4>
+                  <p>Juan Pedro</p>
+                  <div class="estrellas">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="far fa-star"></i>
+                  </div>
+                  <p class="precio"><span class="precio-original">Antes: $200</span> <span
+                        class="precio-oferta">$20</span></p>
+                  <a href="#" class="btn btn-primary d-flex justify-content-center input agregar-carrito"
+                     data-id="3">Agregar Al Carrito</a>
+               </div>
+            </div>
+         </div>
+
       </div>
    </div>
 
+   <script src="app.js"></script>
 </body>
 
 </html>
