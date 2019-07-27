@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Carrito de compras</title>
+
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+</head>
+
+<body>
+
+
+   <header>
+      <div class="container">
+         <div class="row">
+            <div class="col-11">
+               <h3>Super Carrito</h3>
+            </div>
+            <div class="col">
+               <ul>
+                  <li class="submenu">
+                     <div id="icon-carrito" class="icon-carrito">
+                        <i class="fas fa-shopping-cart"></i>
+                     </div>
+                     <div id="carrito">
+                        <table id="lista-carrito">
+                           <thead>
+                              <tr>
+                                 <th>Imagen</th>
+                                 <th>Nombre</th>
+                                 <th>Precio</th>
+                                 <th></th>
+                              </tr>
+                           </thead>
+                           <tbody>
+
+                           </tbody>
+                        </table>
+
+                        <a href="#" id="vaciar-carrito" class="btn btn-danger d-flex justify-content-center">Vaciar
+                           carrito</a>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <div id="hero">
+      <div class="container title-hero">
+         <div class="row title-hero ">
+            <div class="col title-hero  d-flex justify-content-center align-items-center">
+               <h2>Agrega articulos al carrito.</h2>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <div class="container">
+      <div class="row">
+         <div class="col content-productos">
+
+            <div class="card">
+               <img src="img/curso1.jpg" class="imagen-curso u-full-width">
+               <div class="info-card p-3">
+                  <h4>HTML5, CSS3, JavaScript para Principiantes</h4>
+                  <p>Juan Pedro</p>
+                  <div>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="far fa-star"></i>
+                  </div>
+                  <p class="precio">$200 <span class="">$15</span></p>
+                  <a href="#" class="btn btn-primary input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+               </div>
+            </div>
+
+            <div class="card">
+               <img src="img/curso1.jpg" class="imagen-curso u-full-width">
+               <div class="info-card p-3">
+                  <h4>HTML5, CSS3, JavaScript para Principiantes</h4>
+                  <p>Juan Pedro</p>
+                  <div>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="far fa-star"></i>
+                  </div>
+                  <p class="precio">$200 <span class="">$15</span></p>
+                  <a href="#" class="btn btn-primary input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+               </div>
+            </div>
+
+            <div class="card">
+               <img src="img/curso1.jpg" class="imagen-curso u-full-width">
+               <div class="info-card p-3">
+                  <h4>HTML5, CSS3, JavaScript para Principiantes</h4>
+                  <p>Juan Pedro</p>
+                  <div>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="far fa-star"></i>
+                  </div>
+                  <p class="precio">$200 <span class="">$15</span></p>
+                  <a href="#" class="btn btn-primary input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+               </div>
+            </div>
+
+
+
+
+         </div>
+      </div>
+   </div>
+
+</body>
+
+</html>

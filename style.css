@@ -1,0 +1,75 @@
+body {
+   padding: 0;
+   margin: 0;
+}
+
+ul {
+   list-style: none;
+   padding: 0;
+}
+
+header {
+   /* padding: 1em 0; */
+}
+
+
+.submenu {
+   position: relative;
+   /* border: 1px solid red; */
+   text-align: center;
+   transition: all .3s;
+}
+.submenu #carrito {
+   display: none;
+   transition: all .3s;
+}
+.submenu:hover #carrito {
+   display: block;
+   width: 400px;
+   height: auto;
+   padding: 1em 1em;
+   background-color: white;
+   border: 1px solid #ececec;
+   border-radius: 4px;
+
+   position: absolute;
+   right: 0;
+   z-index: 100;
+}
+
+.icon-carrito {
+   font-size: 2em;
+   color: #b3b4b6;
+}
+
+#lista-carrito {
+   width: 100%;
+   border-bottom: 1px solid gray;
+   margin-bottom: 1em;
+}
+
+
+#hero {
+   height: 300px;
+   background-image: url(/img/hero.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom;
+}
+
+.title-hero {
+   height: 100%;
+   color: white;
+}
+
+.content-productos {
+   padding: 2em 0;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.card {
+   width: 300px;
+   margin-bottom: 2em;
+}
